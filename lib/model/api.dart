@@ -5,7 +5,7 @@ import 'package:http/http.dart'as http;
 
 
 class Api{
-  static const baseUrl = "http://192.168.0.101/api/data/";
+  static const baseUrl = "http://device_ip_address/api/data/";
 
   static addusers(Map puser)async{
 
